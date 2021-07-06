@@ -1,32 +1,28 @@
-# Prerequisites
-*.d
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# Logs
+logs
+*.log
+npm-debug.log*
 
-# Precompiled Headers
-*.gch
-*.pch
+# node-waf configuration
+.lock-wscript
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+# Compiled binary addons (http://nodejs.org/api/addons.html)
+build/Release
 
-# Fortran module files
-*.mod
-*.smod
+# Dependency directories
+node_modules
+jspm_packages
+typings
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+# Optional npm cache directory
+.npm
 
-# Executables
-*.exe
-*.out
-*.app
+# .NET compiled files
+*/bin/*
+*/obj/*
+*/.vs/*
+*/.vscode/*
+
+# local sqlite db that is auto generated
+LocalDatabase.db
